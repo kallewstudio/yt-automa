@@ -22,25 +22,26 @@ Antes de usar o aplicativo, certifique-se de ter os seguintes itens instalados n
 ## **Instalação** ##
 Clone ou baixe este repositório:
 
-bash
-Copiar código
-git clone https://github.com/kallewstudio/yt-automa
+```bash
+   git clone https://github.com/kallewstudio/yt-automa
+```
+
 cd video-cutter
 Certifique-se de que o arquivo requirements.txt esteja presente.
 
 Instale as dependências do projeto:
 
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
+```
 
 ## **Como Usar** ##
 1. Executar o aplicativo
 Inicie o aplicativo com o comando:
 
-bash
-Copiar código
+```bash
 python interface.py
+```
 2. Inserir o link do vídeo do YouTube
 Cole o link do vídeo que deseja processar no campo indicado.
 3. Selecionar o tipo de corte
@@ -71,19 +72,20 @@ Erros Comuns
 1. Erro de bibliotecas
 Se encontrar erros de importação ou dependências, execute novamente:
 
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
+```
 2. Problemas de permissão no sistema operacional
 Certifique-se de que o Python tem permissões para criar arquivos e pastas no diretório output/.
 
 3. Erros ao baixar vídeos
 Verifique se o link do YouTube é válido.
 Certifique-se de que o yt-dlp está atualizado:
-bash
-Copiar código
+```bash
 pip install --upgrade yt-dlp
-Contribuindo
+```
+
+## **Contribuindo** ##
 Se você encontrar problemas ou tiver sugestões para melhorias, abra uma issue ou envie um pull request neste repositório.
 
 ## **Licença** ##
@@ -93,9 +95,8 @@ Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais deta
 Se precisar de ajuda, entre em contato:
 
 Email: kallew182@gmail.com
+
 GitHub: kallewstudio/yt-automa
-markdown
-Copiar código
 
 ---
 
