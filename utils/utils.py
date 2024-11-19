@@ -11,3 +11,5 @@ def sanitize_filename(filename):
     sanitized = re.sub(r'[^A-Za-z0-9_\- ]+', '', normalized)
     # Substitui espaços por '_'
     return sanitized.replace(' ', '_')
+
+
